@@ -10,7 +10,13 @@ ImageEXIFRotator Class
 이미지 회전, 변환 등.
 
 사용법 : ImageEXIFROtator.Base64RotateToString(base64String);
- 
+
+내용
+
+  - web에서 이미지 업로드 중 mobile 에서 올린 이미지들은 EXIF 값이 제대로 작동하지 않아 회전이 이상하게 되는 경우가 발생. ( safari 환경에서는 잘 작동하나 chrome, explore, firefox 등 자동으로 landscape 전환 ) 이를 해결하기 위해 middle(rest java server) 단에서 해결하기로 함.
+
+  - cli 에서 가져온 base64 의 EXIF 값을 이용하여 사진을 회전시켜 새로 return 해준다. 이를 이용하여 기존에 저장하는 방식과는 다르게 회전된 이미지를 저장시켜 어디서 불러도 이미 변환된 이미지를 가져올 수 있도록 한다.
+  
 public class ImageEXIFRotator {
 
 	public static BufferedImage transformImage(BufferedImage image,

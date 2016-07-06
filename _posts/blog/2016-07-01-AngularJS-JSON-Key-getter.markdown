@@ -5,7 +5,7 @@ date:   2016-07-01 00:00:00
 categories: blog
 ---
 
-~~~
+~~~html
 <div ng-repeat="(key, data) in dataSets">
 	{{key}}
 </div>

@@ -13,8 +13,8 @@ ui-router의 state에 authenticate 라는 임의 변수를 추가하여 인증 �
 * admin : authenticate : true 인 사용자 접근 가능.
 
 route.js
-
-~~~
+ 
+```javacript
 (function(){
   'use strict';
 
@@ -36,7 +36,7 @@ route.js
     });
 
 )();
-~~~
+```
 
 
 ##### 인증값에 따른 사용자 페이지 이동
@@ -45,7 +45,7 @@ url 변경시 발생하는 $stateChangeStart 이벤트를 이용하여 인증값
 
 app.js
 
-~~~
+```javacript
 (function(){
 	'use strict';
 
@@ -64,7 +64,7 @@ app.js
 		});
 	});
 })();
-~~~
+```
 
 ##### 참조 사이트
 

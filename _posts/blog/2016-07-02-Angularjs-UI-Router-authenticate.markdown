@@ -10,7 +10,7 @@ categories: blog
 ui-router의 state에 authenticate 라는 임의 변수를 추가하여 인증 가능한 사용자만 접근 가도록 구현한다.
 
 * signin : 모든 사용자 접근 가능.
-* admin : authenticate : true 인 사용자 접근 가능.
+* admin : authenticate = true 인 사용자 접근 가능.
 
 route.js
  

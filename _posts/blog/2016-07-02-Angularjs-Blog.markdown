@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "AngularJS Test Blog"
-date:   2016-07-06 11:10:00
+date:   2016-07-02 11:10:00
 categories: blog
 ---
 

@@ -1,10 +1,11 @@
 ---
 layout: post
-title:  "Blog Test"
-date:   2015-10-26 09:51:11
+title:  "Naver Blog"
+date:   2016-07-06 13:29:00
 categories: blog
 ---
 
-http://blog.naver.com/sunhongyi
+개인공부 및 정보 저장, 정리
 
-test1
+[http://blog.naver.com/sunhongyi](http://blog.naver.com/sunhongyi)
+

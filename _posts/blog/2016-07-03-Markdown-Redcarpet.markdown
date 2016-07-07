@@ -4,10 +4,5 @@ title:  "MarkDown with RedCarpet"
 date:   2016-07-03 00:00:00
 categories: blog
 ---
-
-Markdown ¹®¼­ Ã³¸®¸¦ À§ÇÑ ·çºñ ¶óÀÌºê·¯¸®.
-
-
-$ sudo gem install redcarpet
-$ git clone git://github.com/vmg/redcarpet.git
-
+ 
+ã…Žã…‡ã…Žã…‡

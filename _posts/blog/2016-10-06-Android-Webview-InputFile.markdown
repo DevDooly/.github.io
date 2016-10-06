@@ -1,20 +1,20 @@
----
+ï»¿---
 layout: post
 title:  "Webview InputFile in Android"
 date:   2016-10-05 00:00:00
 categories: blog
 ---
 
-android webview »ó¿¡¼­ html5 ÀÇ <input id="fileInput" type="file"> °¡ µ¿ÀÛÇÏÁö ¾ÊÀ½À» ¹ß°ß
+android webview ìƒì—ì„œ html5 ì˜ <input id="fileInput" type="file"> ê°€ ë™ì‘í•˜ì§€ ì•ŠìŒì„ ë°œê²¬
 
-ÀÌ¸¦ ÇØ°áÇØÁØ´Ù.
+ì´ë¥¼ í•´ê²°í•´ì¤€ë‹¤.
 
 
-##### Å×½ºÆ® URL
+##### í…ŒìŠ¤íŠ¸ URL
 
-* [°³ÀÎºí·Î±×](http://doolya.iptime.org:8080/#/test/inputfile)
+* [ê°œì¸ë¸”ë¡œê·¸](http://doolya.iptime.org:8080/#/test/inputfile)
 
-* [Âü°íÀÚ·á] (http://stackoverflow.com/questions/5907369/file-upload-in-webview)
+* [ì°¸ê³ ìë£Œ] (http://stackoverflow.com/questions/5907369/file-upload-in-webview)
 
 @SuppressLint("JavascriptInterface")
 public class MainActivity extends Activity {

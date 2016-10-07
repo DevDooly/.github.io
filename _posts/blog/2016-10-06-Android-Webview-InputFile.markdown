@@ -2,13 +2,15 @@
 layout: post
 title:  "Input File not working in android webview"
 date:   2016-09-06 00:00:00
-categories: blog
+categories: blog 
 ---
 
-android webview 상에서 html5 의 <input id="fileInput" type="file"> 가 동작하지 않음을 발견
+android webview 상에서 html5 의 input type="file" 이 동작하지 않음을 발견
+
+<input id="fileInput" type="file">
 
 이를 해결해준다.
-
+ 
 
 ##### 테스트 URL
 
